@@ -7,7 +7,17 @@ Sphero has to be connected to use it. Then you can send signals to the Sphero to
 Use Unity3D 4.7 as it did not work with Unity3D 5. 
 First i downloaded the Sphero plugin from the Asset Store, then i downloaded Plugin and Samples from [Github][1]. Now I opend the project from the Github samples. Now open the scene and check that they are loaded and checked in the Player Settings and be shure that you build for Android. This should run the Sample.
 
-##Important parameters
+##Sensors
+You can get the Sensordata from Sphero. You can get :
+AccelerometerData
+AttitudeData
+QuaternionData
+...
+Enabling controller streaming turns off stabilization!
 
 ##References
+
+[SpheroDocs](https://sdk.sphero.com/sdk-documentation/getting-started/)
+
 [1]: https://github.com/orbotix/UNITY-PLUGIN
+
